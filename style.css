@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px
 }
+h2{
+    font-size: 40px;
+}
 .red-colure{ color: crimson;
 
 }
@@ -41,4 +44,30 @@ h1{
     background-repeat: no-repeat;
     
     
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-aria{
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#baby-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#Full-Stack-Web-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,crimson );
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
